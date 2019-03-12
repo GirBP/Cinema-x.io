@@ -1,0 +1,173 @@
+header {
+  background-color: #AA0E11;
+  display: grid;
+  grid-template-rows: 30px 60px;
+  padding: 10px; }
+  header .header_logo {
+    margin: 0 auto;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 1fr; }
+    header .header_logo img {
+      width: 190px;
+      height: 80px; }
+    header .header_logo a {
+      width: 190px;
+      height: 40px; }
+  header .header_menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    list-style-type: none;
+    width: 85%;
+    margin: 20px auto 0px; }
+    header .header_menu li {
+      margin: 0 auto;
+      padding: 0; }
+      header .header_menu li button {
+        padding: 5px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        text-align: center;
+        background-color: black;
+        font-size: 1.4em; }
+        header .header_menu li button:hover {
+          background-color: #AA0E11; }
+
+.ph_slider {
+  width: 70%;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 50px repeat(3, 1fr) 50px; }
+  .ph_slider button {
+    margin: auto 15px;
+    padding: 0;
+    color: #AA0E11;
+    font-size: 4em;
+    text-decoration: none;
+    background: none;
+    border-style: none;
+    text-align: center; }
+    .ph_slider button:hover {
+      color: black;
+      font-size: 4.5em; }
+  .ph_slider .ph_slides {
+    margin: 50px auto; }
+    .ph_slider .ph_slides p {
+      text-align: center; }
+
+.film_wrapper {
+  width: 70%;
+  margin: 0 auto; }
+  .film_wrapper img {
+    height: 350px; }
+  .film_wrapper .chart_info {
+    text-align: center; }
+  .film_wrapper .block_film {
+    margin: 40px auto;
+    font-size: 1.3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px; }
+    .film_wrapper .block_film :nth-child(1) {
+      text-align: center; }
+      .film_wrapper .block_film :nth-child(1) button {
+        list-style: none;
+        color: white;
+        padding: 6px;
+        background-color: #AA0E11;
+        text-decoration: none;
+        border-style: none;
+        text-align: center;
+        border-radius: 5px; }
+        .film_wrapper .block_film :nth-child(1) button:hover {
+          background-color: black; }
+    .film_wrapper .block_film :nth-child(2) {
+      list-style: none; }
+      .film_wrapper .block_film :nth-child(2) h3 {
+        margin: 0;
+        margin-bottom: 15px; }
+      .film_wrapper .block_film :nth-child(2) ul {
+        margin: 0;
+        padding-inline-start: 0; }
+  .film_wrapper .right_info {
+    padding: 0;
+    margin: 0; }
+    .film_wrapper .right_info li {
+      margin: 5px 0;
+      padding: 0; }
+      .film_wrapper .right_info li button {
+        list-style: none;
+        color: white;
+        padding: 2px;
+        background-color: #AA0E11;
+        text-decoration: none;
+        border-style: none;
+        text-align: center;
+        border-radius: 5px; }
+        .film_wrapper .right_info li button:hover {
+          background-color: black; }
+  .film_wrapper .film_chart {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    margin: 0; }
+
+.foods_and_drinks {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
+.prod {
+  font-size: 1.3em;
+  text-align: center;
+  margin: 25px 0; }
+  .prod img {
+    height: 150px; }
+  .prod p {
+    text-align: center; }
+  .prod button {
+    list-style: none;
+    color: white;
+    padding: 6px;
+    background-color: #AA0E11;
+    text-decoration: none;
+    border-style: none;
+    text-align: center;
+    border-radius: 5px; }
+    .prod button:hover {
+      background-color: black; }
+
+footer {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  font-size: 1.3em; }
+  footer .up {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); }
+    footer .up a {
+      color: #AA0E11;
+      text-decoration: none; }
+    footer .up .icons {
+      width: 50%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); }
+  footer .bottom {
+    height: 50px;
+    background-color: #AA0E11;
+    color: white;
+    padding: 5px; }
+    footer .bottom p {
+      margin-left: 100px; }
+
+.content-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: grid; }
